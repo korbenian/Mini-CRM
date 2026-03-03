@@ -1,0 +1,134 @@
+{
+ 
+    "loading": {
+      "loading": "Ładowanie...",
+      "loadingdata": "Ładowanie danych użytkownika"
+    },
+    "dashboardMetrics": {
+      "title": "Panel",
+      "totalUsers": "Łączna liczba użytkowników",
+      "totalCards": "Łączna liczba kart",
+      "avgAge": "Średni wiek",
+      "doneCards": "Ukończone karty",
+      "myCards": "Moje karty"
+    },
+    "tariff": {
+      "plans": "Plany taryf"
+    },
+    "registration": {
+      "title": "Rejestracja",
+      "haveAccount": "Czy masz konto?",
+      "link": "Kliknij tutaj"
+    },
+    "navigation": {
+      "dashboard": "Panel",
+      "articles": "Artykuły",
+      "tasks": "Zadania",
+      "chat": "Czat z AI"
+    },
+    "login": {
+      "title": "Logowanie",
+      "email": "Email",
+      "password": "Hasło",
+      "button": "Zaloguj się",
+      "noAccount": "Nie masz konta?",
+      "link": "Kliknij tutaj",
+      "error": "Nieznany błąd"
+    },
+    "dashboard": {
+      "welcome": "Cześć! 👋",
+  "overview": "Oto krótki przegląd Twojej dzisiejszej pracy",
+      "age": "Wiek",
+      "name": "Imię",
+      "description": "Opis",
+      "mycards": "Moje karty",
+      "addcard": "Dodaj kartę",
+      "account": "Konto",
+      "exit": "Wyloguj",
+      "edit": "Edytuj",
+      "profile": "Profil",
+      "aboutuser": "O mnie"
+    },"errors": {
+  "notAdmin": "Nie masz uprawnień do dostępu do tej strony"
+},"common": {
+  "loading": "Ładowanie..."
+},
+    "profile": {
+      "age": "Wiek",
+      "name": "Imię",
+      "exit": "Wyloguj",
+      "other": "Inna...",
+      "add": "Dodaj",
+      "role": "Rola",
+      "edit": "Edytuj",
+      "enterTechnology": "Wprowadź technologię",
+      "technologies": "technologie",
+      "addTech": "Dodaj technologie",
+  "hideTech": "Usuń technologie",
+      "profile": "Profil",
+      "aboutuser": "O mnie",
+      "email": "Email"
+    },
+    "edit": {
+      "edit": "Edytuj profil",
+      "save": "Zapisz",
+      "exit": "Wyloguj",
+      "name": "Imię",
+      "aboutuser": "O mnie"
+    },
+    "createprofile": {
+      "createprofile": "Utwórz profil",
+      "age": "Wiek",
+      "name": "Imię",
+      "description": "Opis",
+      "create": "Utwórz",
+      "exit": "Wyloguj"
+    },
+    "tasks": {
+      "noTitle": "Bez tytułu",
+      "deadline": "Termin",
+      "delete": "Usuń",
+      "allCards": "Wszystkie karty",
+      "fill": "Wypełnij",
+      "close": "Zamknij",
+      "title": "Tytuł",
+      "cardHolder": "Właściciel karty",
+      "status": {
+        "todo": "Do zrobienia",
+        "inProgress": "W trakcie",
+        "done": "Gotowe",
+        "status": "Status"
+      }
+    },
+    "addtask": {
+      "search": "Szukaj zadania",
+      "filter": {
+        "all": "Wszystkie"
+      },
+      "status": {
+        "todo": "Do zrobienia",
+        "inProgress": "W trakcie",
+        "done": "Gotowe"
+      }
+    },
+    "taskedit": {
+      "titlePlaceholder": "Wpisz tytuł",
+      "deadline": "Termin",
+      "create": "Utwórz",
+      "delete": "Usuń"
+    },
+    "mainTasks": {
+      "title": "Zadania"
+    },
+    "art": {
+      "title": "Artykuły",
+      "noDescription": "Brak opisu"
+    },
+    "chat": {
+      "title": "Czat z AI",
+      "thinking": "AI myśli…",
+      "empty": "Zadaj pierwsze pytanie 👇",
+      "placeholder": "Zapytaj mnie o coś…"
+    }
+  
+}

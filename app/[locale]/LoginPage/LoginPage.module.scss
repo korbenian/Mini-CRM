@@ -1,0 +1,99 @@
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ExitBox {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+.haveAccount{
+  display: flex;
+  gap: 2vh;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+  width: 30%;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.form h2 {
+  margin-bottom: 30px;
+  color: #00fff7;
+  text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+}
+
+.error {
+  color: #ff4c4c;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.form p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.form a {
+  color: #00fff7;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.form a:hover {
+  text-shadow: 0 0 10px #00fff7;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #00fff7;
+  background: rgba(0, 255, 255, 0.05);
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #00fff7;
+  box-shadow: 0 0 10px #00fff7;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #00fff7;
+  color: #0a0a30;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00fff7;
+}
+
+.button:hover {
+  box-shadow: 0 0 20px #00fff7, 0 0 30px #00fff7;
+  transform: scale(1.05);
+}

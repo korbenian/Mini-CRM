@@ -1,0 +1,119 @@
+/* корень */
+.chat {
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* SIDEBAR — FIXED, СЛЕВА */
+.sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 260px;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+/* СТРАНИЦА — БЕРЁТ НА СЕБЯ ШИРИНУ */
+.page {
+  margin-left:14%;
+  width: 100%;
+  height: 100dvh;
+}
+
+/* ОСНОВНОЙ ЧАТ */
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* 🔥 КРИТИЧЕСКИ ВАЖНО */
+}
+
+/* HEADER */
+.header {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* КНОПКА */
+.menuBtn {
+  background: #2563eb;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #1d4ed8;
+  }
+}
+
+/* СООБЩЕНИЯ */
+.messagesWrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.messages {
+  min-width: 0; /* важно для flex */
+  max-width: 100%; /* не даём контенту растягиваться */
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.message {
+  width: fit-content; /* чтобы блок занимал только нужное место */
+  max-width: 75%; /* ограничиваем ширину */
+  padding: 12px 16px;
+  border-radius: 16px;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.user {
+  margin-left: 75%; /* справа */
+  background: #2563eb;
+  color: #fff;
+}
+
+.assistant {
+  margin-right: auto; /* слева */
+  background: #e5e7eb;
+  color: #111;
+}
+
+
+.status,
+.error,
+.empty {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 24px;
+}
+
+.error {
+  color: #dc2626;
+}
+
+/* DARK */
+:global(.dark) {
+  .sidebar {
+    background: #020617;
+  }
+
+  .header {
+    background: #020617;
+    border-color: #1e293b;
+  }
+
+  .assistant {
+    background: #1e293b;
+    color: #e5e7eb;
+  }
+}

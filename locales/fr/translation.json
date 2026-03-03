@@ -1,0 +1,135 @@
+{
+  
+    "loading": {
+      "loading": "Chargement...",
+      "loadingdata": "Chargement des données utilisateur"
+    },
+    "registration": {
+      "title": "Inscription",
+      "haveAccount": "Vous avez un compte ?",
+      "link": "Cliquez ici"
+    },
+    "navigation": {
+      "dashboard": "Tableau de bord",
+      "articles": "Articles",
+      "tasks": "Tâches",
+      "chat": "Chat avec IA"
+    },
+    "tariff": {
+      "plans": "Forfaits"
+    },
+    "dashboardMetrics": {
+      "title": "Tableau de bord",
+      "totalUsers": "Nombre total d’utilisateurs",
+      "totalCards": "Nombre total de cartes",
+      "avgAge": "Âge moyen",
+      "doneCards": "Cartes terminées",
+      "myCards": "Mes cartes"
+    },
+    "login": {
+      "title": "Connexion",
+      "email": "Email",
+      "password": "Mot de passe",
+      "button": "Se connecter",
+      "noAccount": "Pas de compte ?",
+      "link": "Cliquez ici",
+      "error": "Erreur inconnue"
+    },
+    "dashboard": {
+      "welcome": "Bonjour! 👋",
+  "overview": "Voici un aperçu rapide de votre travail d'aujourd'hui",
+      "age": "Âge",
+      "name": "Nom",
+      "description": "Description",
+      "mycards": "Mes cartes",
+      "addcard": "Ajouter une carte",
+      "account": "Compte",
+      "exit": "Quitter",
+      "edit": "Modifier",
+      "profile": "Profil",
+      "aboutuser": "À propos de moi"
+    },"errors": {
+  "notAdmin": "Vous n'avez pas l'autorisation d'accéder à cette page"
+},"common": {
+  "loading": "Chargement..."
+},
+    "profile": {
+      "age": "Âge",
+      "name": "Nom",
+      "exit": "Quitter",
+      "role": "Rôle",
+      "enterTechnology": "Entrez la technologie",
+      "other": "Autre...",
+      "add": "Ajouter",
+      "edit": "Modifier",
+      "technologies": "technologies",
+      "addTech": "Ajouter des technologies",
+  "hideTech": "Supprimer les technologies",
+      "profile": "Profil",
+      "aboutuser": "À propos de moi",
+      "email": "Email"
+    },
+    "edit": {
+      "edit": "Modifier le profil",
+      "save": "Enregistrer",
+      "exit": "Quitter",
+      "name": "Nom",
+      "aboutuser": "À propos de moi"
+    },
+    "createprofile": {
+      "createprofile": "Créer un profil",
+      "age": "Âge",
+      "name": "Nom",
+      "description": "Description",
+      "create": "Créer",
+      "exit": "Quitter"
+    },
+    "tasks": {
+      "noTitle": "Sans titre",
+      "deadline": "Date limite",
+      "delete": "Supprimer",
+      "fill": "Remplir",
+      "allCards": "Toutes les cartes",
+      "close": "Fermer",
+      "title": "Titre",
+      "cardHolder": "Titulaire de la carte",
+      "status": {
+        "todo": "À faire",
+        "inProgress": "En cours",
+        "done": "Terminé",
+        "status": "Statut"
+      }
+    },
+    "addtask": {
+      "search": "Rechercher une tâche",
+      "filter": {
+        "all": "Toutes"
+      },
+      "status": {
+        "todo": "À faire",
+        "inProgress": "En cours",
+        "done": "Terminée"
+      }
+    },
+    "taskedit": {
+      "titlePlaceholder": "Entrez le titre",
+      "deadline": "Date limite",
+      "create": "Créer",
+      "delete": "Supprimer"
+    },
+    "mainTasks": {
+      "title": "Tâches"
+    },
+    "art": {
+      "title": "Articles",
+      "noDescription": "Aucune description"
+    },
+    "chat": {
+      "title": "Chat avec IA",
+      "thinking": "L’IA réfléchit…",
+      "empty": "Posez la première question 👇",
+      "placeholder": "Demandez-moi quelque chose…"
+    }
+  
+}
+  

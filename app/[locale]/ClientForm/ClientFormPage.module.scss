@@ -1,0 +1,189 @@
+/* ClientFormPage.module.scss */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+height: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Sidebar {
+ 
+
+
+  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+
+.dataUser {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+margin-left: 14%;
+  border-radius: 12px;
+
+
+
+
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+
+  .avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+
+  
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+  }
+
+  .techText {
+    display: block;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+
+   
+  }
+
+  .techList {
+    margin-top: 0.5rem;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    overflow: hidden;
+
+    &.hidden {
+      max-height: 0;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  .techToggleButton {
+    display: block;
+     width: 20%;
+    margin: 1rem 0;
+    padding: 0.6rem 1.2rem;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(90deg, #0056b3, #003f7f);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+  }
+
+  a {
+    
+    margin-top: 1rem;
+  
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+  }
+}
+
+.options {
+   display: flex;
+justify-content: center;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  .options_first {
+   display: flex;
+justify-content: center;
+    margin: 1rem 0;
+      width: 20%;
+    padding: 0.6rem 1.2rem;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(90deg, #0056b3, #003f7f);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+  }
+}
+.main{
+  width: 100%;
+}
+.tariffs{
+ display: flex;
+justify-content: center;
+    margin: 1rem 0;
+    padding: 0.6rem 1.2rem;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #fff;
+    border: none;
+     width: 20%;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+ &:hover {
+      background: linear-gradient(90deg, #0056b3, #003f7f);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+}

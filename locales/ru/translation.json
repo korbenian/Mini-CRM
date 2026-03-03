@@ -1,0 +1,134 @@
+{
+  
+    "loading": {
+      "loading": "Загрузка...",
+      "loadingdata": "Загрузка данных профиля"
+    },
+    "registration": {
+      "title": "Регистрация",
+      "haveAccount": "У вас есть аккаунт?",
+      "link": "Нажмите здесь"
+    },
+    "tariff": {
+      "plans": "Планы тарифов"
+    },
+    "login": {
+      "title": "Вход",
+      "email": "Почта",
+      "password": "Пароль",
+      "button": "Войти",
+      "noAccount": "У вас нет аккаунта?",
+      "link": "Нажмите сюда",
+      "error": "Неизвестная ошибка"
+    },
+    "navigation": {
+      "dashboard": "Дашборд",
+      "articles": "Статьи",
+      "tasks": "Задачи",
+      "chat": "Чат с ИИ"
+    },
+    "dashboardMetrics": {
+      "title": "Дашборд",
+      "totalUsers": "Всего пользователей",
+      "totalCards": "Всего карточек",
+      "avgAge": "Средний возраст",
+      "myCards": "Ваши карточки",
+      "doneCards": "Завершённые карточки"
+    },
+    "dashboard": {
+      "welcome": "Привет! 👋",
+  "overview": "Вот краткий обзор вашей работы на сегодня",
+      "age": "Возраст",
+      "name": "Имя",
+      "description": "Описание",
+      "mycards": "Мои карточки",
+      "addcard": "Добавить карточку",
+      "account": "Аккаунт",
+      "exit": "Выйти",
+      "edit": "Редактировать",
+      "profile": "Профиль",
+      "aboutuser": "О себе"
+    },
+    "profile": {
+      "age": "Возраст",
+      "name": "Имя",
+      "role": "Роль",
+      "exit": "Выйти",
+      "add": "Добавить",
+      "enterTechnology": "Введите технологию",
+      "hideTech":"Убрать Технологии",
+      "addTech":"Добавить Технологии",
+      "other": "Другая...",
+      "technologies": "Технологии",
+      "edit": "Редактировать",
+      "profile": "Профиль",
+      "aboutuser": "О себе",
+      "email": "Почта"
+    },
+    "edit": {
+      "edit": "Редактировать профиль",
+      "save": "Сохранить",
+      "exit": "Выйти",
+      "name": "Имя",
+      "aboutuser": "О себе"
+    },
+    "createprofile": {
+      "createprofile": "Создать профиль",
+      "age": "Возраст",
+      "name": "Имя",
+      "description": "О себе",
+      "create": "Создать",
+      "exit": "Выйти"
+    },
+    "errors": {
+  "notAdmin": "У вас нет прав доступа к этой странице"
+},"common": {
+  "loading": "Загрузка..."
+},
+    "tasks": {
+      "allCards":"Все Карточки",
+      "noTitle": "Без названия",
+      "deadline": "Дедлайн",
+      "delete": "Удалить",
+      "fill": "Заполнить",
+      "close": "Закрыть",
+      "title": "Название",
+      "cardHolder": "Владелец карточки",
+      "status": {
+        "todo": "К выполнению",
+        "inProgress": "В процессе",
+        "done": "Готово",
+        "status": "Статус"
+      }
+    },
+    "addtask": {
+      "search": "Поиск задачи",
+      "filter": {
+        "all": "Все"
+      },
+      "status": {
+        "todo": "К выполнению",
+        "inProgress": "В процессе",
+        "done": "Готово"
+      }
+    },
+    "taskedit": {
+      "titlePlaceholder": "Введите название",
+      "deadline": "Дедлайн",
+      "create": "Создать",
+      "delete": "Удалить"
+    },
+    "mainTasks": {
+      "title": "Задачи"
+    },
+    "art": {
+      "title": "Статьи",
+      "noDescription": "Нет описания"
+    },
+    "chat": {
+      "title": "Чат с ИИ",
+      "thinking": "ИИ думает…",
+      "empty": "Задайте первый вопрос 👇",
+      "placeholder": "Спросите меня о чём-нибудь…"
+    }
+  }

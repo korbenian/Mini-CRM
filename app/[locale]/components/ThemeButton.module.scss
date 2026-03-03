@@ -1,0 +1,12 @@
+.themeToggleButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: inherit;
+  transition: color 0.3s ease;
+width: 50%;
+  &:hover {
+    color: #007bff;
+  }
+}

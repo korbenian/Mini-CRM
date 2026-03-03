@@ -1,0 +1,60 @@
+/* DashboardPage.module.scss */
+
+.DashBoardPage {
+  display: flex;
+  min-height: 100vh;
+
+
+
+  .Sidebar {
+    /* ширина боковой панели */
+
+    border-right: 1px solid #e0e0e0;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+  }
+
+  .mainContent {
+    flex: 1;
+    padding: 2rem;
+margin-left: 15%;
+    .pageTitle {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .metrics {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+
+      .metricCard {
+      border: inset;
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        flex: 1 1 200px;
+        text-align: center;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: default;
+
+        &:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+        }
+
+        .metricTitle {
+          font-size: 1rem;
+          
+          margin-bottom: 0.5rem;
+        }
+
+        .metricValue {
+          font-size: 2.2rem;
+          font-weight: bold;
+          
+        }
+      }
+    }
+  }
+}

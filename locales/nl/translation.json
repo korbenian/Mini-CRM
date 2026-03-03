@@ -1,0 +1,132 @@
+{
+    "loading": {
+      "loading": "Laden...",
+      "loadingdata": "Gebruikersgegevens laden"
+    },
+    "registration": {
+      "title": "Registratie",
+      "haveAccount": "Heeft u een account?",
+      "link": "Klik hier"
+    },
+    "navigation": {
+      "dashboard": "Dashboard",
+      "articles": "Artikelen",
+      "tasks": "Taken",
+      "chat": "Chat met AI"
+    },
+    "dashboardMetrics": {
+      "title": "Dashboard",
+      "totalUsers": "Totaal gebruikers",
+      "totalCards": "Totaal kaarten",
+      "avgAge": "Gemiddelde leeftijd",
+      "doneCards": "Voltooide kaarten",
+      "myCards": "Mijn kaarten"
+    },
+    "tariff": {
+      "plans": "Tariefplannen"
+    },
+    "login": {
+      "title": "Inloggen",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "button": "Inloggen",
+      "noAccount": "Geen account?",
+      "link": "Klik hier",
+      "error": "Onbekende fout"
+    },
+    "dashboard": {
+      "welcome": "Hallo там 👋",
+  "overview": "Hier is een kort overzicht van je werk van vandaag",
+      "age": "Leeftijd",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "mycards": "Mijn kaarten",
+      "addcard": "Kaart toevoegen",
+      "account": "Account",
+      "exit": "Uitloggen",
+      "edit": "Bewerken",
+      "profile": "Profiel",
+      "aboutuser": "Over mij"
+    },"errors": {
+  "notAdmin": "U heeft geen toestemming om deze pagina te bekijken"
+},"common": {
+  "loading": "Laden..."
+},
+    "profile": {
+      "age": "Leeftijd",
+      "name": "Naam",
+      "exit": "Uitloggen",
+      "add": "Toevoegen",
+      "edit": "Bewerken",
+      "role": "Rol",
+      "other": "Andere...",
+      "enterTechnology": "Voer technologie in",
+      "technologies": "technologie",
+      "addTech": "Technologieën toevoegen",
+  "hideTech": "Technologieën verwijderen",
+      "profile": "Profiel",
+      "aboutuser": "Over mij",
+      "email": "E-mail"
+    },
+    "edit": {
+      "edit": "Profiel bewerken",
+      "save": "Opslaan",
+      "exit": "Uitloggen",
+      "name": "Naam",
+      "aboutuser": "Over mij"
+    },
+    "createprofile": {
+      "createprofile": "Profiel aanmaken",
+      "age": "Leeftijd",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "create": "Aanmaken",
+      "exit": "Uitloggen"
+    },
+    "tasks": {
+      "noTitle": "Zonder titel",
+      "deadline": "Deadline",
+      "delete": "Verwijderen",
+      "allCards": "Alle kaarten",
+      "fill": "Invullen",
+      "close": "Sluiten",
+      "title": "Titel",
+      "cardHolder": "Kaarthouder",
+      "status": {
+        "todo": "Te doen",
+        "inProgress": "Bezig",
+        "done": "Klaar",
+        "status": "Status"
+      }
+    },
+    "addtask": {
+      "search": "Taak zoeken",
+      "filter": {
+        "all": "Alles"
+      },
+      "status": {
+        "todo": "Te doen",
+        "inProgress": "Bezig",
+        "done": "Klaar"
+      }
+    },
+    "taskedit": {
+      "titlePlaceholder": "Titel invoeren",
+      "deadline": "Deadline",
+      "create": "Aanmaken",
+      "delete": "Verwijderen"
+    },
+    "mainTasks": {
+      "title": "Taken"
+    },
+    "art": {
+      "title": "Artikelen",
+      "noDescription": "Geen beschrijving"
+    },
+    "chat": {
+      "title": "Chat met AI",
+      "thinking": "AI denkt na…",
+      "empty": "Stel de eerste vraag 👇",
+      "placeholder": "Vraag me iets…"
+    }
+  }

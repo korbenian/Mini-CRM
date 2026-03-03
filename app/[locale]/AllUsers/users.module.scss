@@ -1,0 +1,29 @@
+.main {
+  width: 80%;
+  border-collapse: collapse; // ОБЯЗАТЕЛЬНО
+  margin-top: 20px;
+  margin-left: 15%;
+
+  th {
+    background-color: #f4f4f4;
+    text-align: left;
+    color:black;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+  }
+
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+  }
+
+ .dataUser {
+  transition: background-color 0.2s ease, color 0.2s ease; 
+  
+  &:hover {
+    background-color: #ffffff; 
+    color: #1a1a1a;           
+    cursor: default;        
+  }
+}
+}

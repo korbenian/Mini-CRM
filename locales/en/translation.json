@@ -1,0 +1,134 @@
+{
+  
+    "loading": {
+      "loading": "Loading...",
+      "loadingdata": "Loading data User"
+    },
+    "registration": {
+      "title": "Registration",
+      "haveAccount": "Do you have an account?",
+      "link": "Click here"
+    },
+    "tariff": {
+      "plans": "Tariff Plans"
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "button": "Login",
+      "noAccount": "Don’t have an account?",
+      "link": "Click here",
+      "error": "Unknown error"
+    },
+    "navigation": {
+      "dashboard": "Dashboard",
+      "articles": "Articles",
+      "tasks": "Tasks",
+      "chat": "Chat with AI"
+    },
+    "dashboardMetrics": {
+      "title": "Dashboard",
+      "totalUsers": "Total Users",
+      "totalCards": "Total Cards",
+      "avgAge": "Average Age",
+      "doneCards": "Done Cards",
+      "myCards": "My Cards"
+    },
+    "dashboard": {
+      "welcome": "Hello, there 👋",
+  "overview": "Here is a quick overview of your work today",
+      "age": "Age",
+      "name": "Name",
+      "description": "Description",
+      "mycards": "My cards",
+      "addcard": "Add card",
+      "account": "Account",
+      "exit": "Exit",
+      "edit": "Edit",
+      "profile": "Profile",
+      "aboutuser": "About me"
+    },"errors": {
+  "notAdmin": "You do not have permission to access this page"
+},"common": {
+  "loading": "Loading..."
+},
+    "profile": {
+      "age": "Age",
+      "name": "Name",
+      "exit": "Exit",
+      "role": "Role",
+      "technologies": "technologies",
+      "edit": "Edit",
+      "enterTechnology": "Enter technology",
+      "addTech": "Add Technologies",
+  "hideTech": "Remove Technologies",
+      "add": "Add",
+      "other": "Other...",
+      "profile": "Profile",
+      "aboutuser": "About me",
+      "email": "Email"
+    },
+    "edit": {
+      "edit": "Edit Profile",
+      "save": "Save",
+      "exit": "Exit",
+      "name": "Name",
+      "aboutuser": "About me"
+    },
+    "createprofile": {
+      "createprofile": "Create Profile",
+      "age": "Age",
+      "name": "Name",
+      "description": "Description",
+      "create": "Create",
+      "exit": "Exit"
+    },
+    "tasks": {
+      "noTitle": "Untitled",
+      "allCards": "All Cards",
+      "deadline": "Deadline",
+      "delete": "Delete",
+      "fill": "Fill",
+      "close": "Close",
+      "title": "Title",
+      "cardHolder": "Card Holder",
+      "status": {
+        "todo": "To Do",
+        "inProgress": "In Progress",
+        "done": "Done",
+        "status": "Status"
+      }
+    },
+    "addtask": {
+      "search": "Search task",
+      "filter": {
+        "all": "All"
+      },
+      "status": {
+        "todo": "To Do",
+        "inProgress": "In Progress",
+        "done": "Done"
+      }
+    },
+    "taskedit": {
+      "titlePlaceholder": "Enter title",
+      "deadline": "Deadline",
+      "create": "Create",
+      "delete": "Delete"
+    },
+    "mainTasks": {
+      "title": "Tasks"
+    },
+    "art": {
+      "title": "Articles",
+      "noDescription": "No description"
+    },
+    "chat": {
+      "title": "Chat with AI",
+      "thinking": "AI thinks…",
+      "empty": "Write the first question 👇",
+      "placeholder": "Ask me something…"
+    }
+  
+}

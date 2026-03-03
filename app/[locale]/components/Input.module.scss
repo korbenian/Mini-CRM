@@ -1,0 +1,42 @@
+.field {
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: inset;
+}
+
+.field input {
+  width:100%;
+  padding: 10px 0;
+  font-size: 16px;
+  
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  outline: none;
+  transition: 0.3s;
+}
+
+.field label {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+/* фокус */
+.field input:focus {
+  border-bottom-color: #00fff7;
+  box-shadow: 0 1px 0 #00fff7;
+}
+
+/* label вверх */
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label {
+  top: -12px;
+  font-size: 12px;
+  color: #00fff7;
+}
