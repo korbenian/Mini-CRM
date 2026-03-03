@@ -56,7 +56,9 @@ const LoginPage = () => {
             placeholder={t('login.password')}
           />
           {error && <p className={styles.error}>{error}</p>}
-          <Button type='submit' label={t('login.button')} />
+<button className={styles.logIn} type='submit'>
+  {t('login.button')}
+</button>
           <p className={styles.haveAccount}>
             {t('login.noAccount')} <Link href='/RegisterPage'>{t('login.link')}</Link>
           </p>

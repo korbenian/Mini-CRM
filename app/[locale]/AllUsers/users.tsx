@@ -47,7 +47,7 @@ return (
         <tr key={user.uid} className={styles.dataUser}>
 
           <td> {user.name}</td>
-          <td>{user.age}</td> 
+          <td>{user.age  ||'-'}</td> 
             <td> {user.about}</td>
           <td>{user.techStack?.join(', ') || '-'}</td>
           <td> {user.role}</td>

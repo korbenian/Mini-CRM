@@ -1,5 +1,7 @@
 
-
+.wrapper_edit{
+  width: 100%;
+}
 .wrapper {
  width: 100%;
 justify-content: center;
@@ -9,6 +11,7 @@ align-items: center;
    background-color: var(--bg-color);
   color: var(--text-color);
 }
+
 
 .form{ padding: 2rem;  border-radius: 12px;
   border: solid;

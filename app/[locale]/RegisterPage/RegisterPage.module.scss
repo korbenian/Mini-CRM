@@ -4,11 +4,28 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-
+width: 100%;
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.logIn {
+  background-color: #ff4d4d;           
+  cursor: pointer;           
+  padding: 10px 20px;        
+  border: none;              
+  border-radius: 6px;        
+  font-weight: 600;         
+  transition: background 0.3s ease; 
+}
+
+.logIn:hover {
+  background-color: #e60000; 
+}
+
+.logIn:active {
+  transform: scale(0.98);    
+}
 .ExitBox {
   position: absolute;
   top: 20px;

@@ -46,7 +46,7 @@ export default function EditProfile({datauser}:Props)  {
 };
 
   return (
-    <div><div className={styles.Sidebar}>
+    <div className={styles.wrapper_edit}><div className={styles.Sidebar}>
         <Sidebar />
       </div>
     <div className={styles.wrapper}>

@@ -7,7 +7,6 @@ import { auth } from '../../../lib/firebase'
 import Sidebar from '../components/Sidebar'
 import { Typewriter } from 'react-simple-typewriter'
 import { useUserStore } from '../store/userStore'
-import {useRouter} from 'next/navigation'
 import { DashboardTypes } from '../types/types'
 
 type Props={
@@ -16,7 +15,8 @@ type Props={
 
 export default function DashBoardPage ({metrics}:Props){
   const user = useUserStore(state => state.user)
-const navigate = useRouter()
+
+
 
   return (
     <div className={styles.DashBoardPage}>

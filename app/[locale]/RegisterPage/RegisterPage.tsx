@@ -50,7 +50,9 @@ const RegisterPage = () => {
             placeholder={t('login.password')}
           />
           {error && <p>{error}</p>}
-          <Button type='submit' label='register' />
+          <button className={styles.logIn} type='submit' >
+            Register
+            </button>
           <p className={styles.haveAccount}>
             {t('registration.haveAccount')}<Link href='/LoginPage'>{t('registration.link')}</Link>
           </p>
