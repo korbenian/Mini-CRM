@@ -105,7 +105,7 @@ const newTaskPlaceholder: Task = {
 
     <div className={styles.taskList}>
       {filteredTasks.map(task => (
-        <TaskView key={task.id} task={task} />
+        <TaskView key={task.id} task={task}  />
       ))}
     </div></div>
   </div>

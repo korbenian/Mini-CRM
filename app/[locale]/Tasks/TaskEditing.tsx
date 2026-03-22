@@ -1,4 +1,3 @@
-//C:\Users\User\mini-crm\app\[locale]\Tasks\TaskEditing.tsx
 'use client'
 import { useState } from 'react'
 import Input from '../components/Input'
@@ -6,64 +5,81 @@ import { Task } from '../types/types'
 import { useTranslations } from 'next-intl'
 import styles from './TaskEdidting.module.scss'
 import useTasks from '../hooks/useTasks'
-type PropTask={
-  utils:Task
-}
-export default function TaskEditing ({
+
+export default function TaskEditing({
   task,
+  onUpdate,
   onSave, 
- 
-}:{
+}: {
   task: Task
-  onSave: (id: string, title: string, deadline: string) => void
-  
-} ) {
+  onSave: (id: string, title: string, deadline: string) => Promise<void> ,
+  onUpdate?: () => void
+}) {
   const [title, setTitle] = useState(task.name)
   const [deadline, setDeadline] = useState(task.deadline)
-const  t  = useTranslations()
-const {removeTask}=useTasks()
+  const [isSubmitting, setIsSubmitting] = useState(false) 
+  
+  const t = useTranslations()
+  const { removeTask } = useTasks()
+
+  const handleInternalSave = async () => {
+    setIsSubmitting(true)
+    try {
+      await onSave(task.id, title, deadline)
+    } catch (err) {
+      console.error("Ошибка при сохранении:", err)
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
 
   return (
-  <div className={styles.container}>
-    <div className={styles.inputGroup}>
-      <Input
-        type='text'
-        placeholder={t('taskedit.titlePlaceholder')}
-        value={title}
-        onChange={e => setTitle(e.target.value)}
-        className={styles.titleInput}
-      />
-    </div>
-
-    <div className={styles.deadlineWrapper}>
-      <label>
-        {t('taskedit.deadline')}:
+    <div className={styles.container}>
+      <div className={styles.inputGroup}>
         <Input
-          type='date'
-          value={deadline}
-          onChange={e => setDeadline(e.target.value)}
-          className={styles.dateInput}
+          type='text'
+          placeholder={t('taskedit.titlePlaceholder')}
+          value={title}
+          onChange={e => setTitle(e.target.value)}
+          className={styles.titleInput}
+          disabled={isSubmitting}
         />
-      </label>
-    </div>
+      </div>
 
-    <div className={styles.actions}>
-      <button
-        onClick={() => onSave(task.id, title, deadline)}
-        className={`${styles.btn} ${styles.save}`}
-      >
-        {t('taskedit.create')}
-      </button> 
+      <div className={styles.deadlineWrapper}>
+        <label>
+          {t('taskedit.deadline')}:
+          <Input
+            type='date'
+            value={deadline}
+            onChange={e => setDeadline(e.target.value)}
+            className={styles.dateInput}
+            disabled={isSubmitting}
+          />
+        </label>
+      </div>
 
-      <button
-        className={`${styles.btn} ${styles.delete}`}
-        onClick={async () => {
-          await removeTask(task.id)
-        }}
-      >
-        {t('taskedit.delete')}
-      </button>
+      <div className={styles.actions}>
+        <button
+          onClick={handleInternalSave}
+          className={`${styles.btn} ${styles.save}`}
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? '...' : t('taskedit.create')}
+        </button>
+
+        <button
+          className={`${styles.btn} ${styles.delete}`}
+          onClick={async () => {
+            if (confirm(t('taskedit.confirmDelete'))) {
+               await removeTask(task.id)
+            }
+          }}
+          disabled={isSubmitting}
+        >
+          {t('taskedit.delete')}
+        </button>
+      </div>
     </div>
-  </div>
-)
+  )
 }

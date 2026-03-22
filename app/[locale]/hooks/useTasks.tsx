@@ -1,37 +1,44 @@
-
+'use client'
 import { supabase } from '@/utils/supabase'
-export default function useTasks(){
-     const removeTask = async (id: string) => {
-       const {error}=await supabase
-       .from('leads')
-       .delete()
-       .eq('id',id)
+import { useState } from 'react'
 
-       if(error) throw error
-       window.location.reload()
-      }
-    
-        
-    
-      const handleSave = async (id: string, title: string, deadline: string) => {
-const {error}= await supabase
-.from('leads')
-.update({name:title,deadline:deadline})
-.eq('id',id)
-        if(error)throw error
-      }
+export default function useTasks(onUpdate?: () => void) {
+  const [isPending, setIsPending] = useState(false)
 
- const UpdateStatus  = async (id: string,newStatus:string) => {
-      const {error}=await supabase
+  const removeTask = async (id: string) => {
+    const { error } = await supabase
       .from('leads')
-      .update({status:newStatus})
-.eq('id',id)
+      .delete()
+      .eq('id', id)
 
-if(error) throw error
-      }
+    if (error) throw error
+    if (onUpdate) onUpdate() 
+  }
 
+  const handleSave = async (id: string, title: string, deadline: string) => {
+    setIsPending(true)
+    try {
+      const { error } = await supabase
+        .from('leads')
+        .update({ name: title, deadline: deadline })
+        .eq('id', id)
 
+      if (error) throw error
+      if (onUpdate) onUpdate()
+    } finally {
+      setIsPending(false)
+    }
+  }
 
-      return {removeTask,handleSave,UpdateStatus}
+  const updateStatus = async (id: string, newStatus: string) => {
+    const { error } = await supabase
+      .from('leads')
+      .update({ status: newStatus })
+      .eq('id', id)
+
+    if (error) throw error
+    if (onUpdate) onUpdate()
+  }
+
+  return { removeTask, handleSave, updateStatus, isPending }
 }
-
