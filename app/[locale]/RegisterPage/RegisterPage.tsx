@@ -2,11 +2,11 @@
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import styles from './RegisterPage.module.scss'
-import Input from '../components/Input'
+import Input from '../components/Input/Input'
 import  Link  from 'next/link'
 import { useTranslations } from 'next-intl'
-import ChangeTheme from '../components/ThemeButton'
-import LanguageSwitcher from '../components/ChangeLanguage'
+import ChangeTheme from '../components/ThemeButton/ThemeButton'
+import LanguageSwitcher from '../components/Changelanguage/ChangeLanguage'
 import { supabase } from '@/utils/supabase'
 const RegisterPage = () => {
   const [email, setEmail] = useState('')

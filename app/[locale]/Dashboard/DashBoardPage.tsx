@@ -1,6 +1,6 @@
 'use client'
 import styles from './DashboardPage.module.scss'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import { Typewriter } from 'react-simple-typewriter'
 import { useRenderProfile } from '../hooks/useProfile'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'

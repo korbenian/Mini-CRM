@@ -3,7 +3,7 @@
  import { useEffect, useState } from 'react'
  import { useTranslations } from 'next-intl'
  import styles from './Analytics.module.scss'
- import Sidebar from '../components/Sidebar'
+ import Sidebar from '../components/Sidebar/Sidebar'
 
 
 type PropsAnalityc={

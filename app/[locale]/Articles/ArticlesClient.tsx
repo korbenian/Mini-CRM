@@ -3,7 +3,7 @@
 import {  useState } from 'react'
 import ArticleModal from '../ArticleModal/ArticleModal'
 import styles from './Articles.module.scss'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import { useTranslations } from 'next-intl' 
 import {getArticles} from '../types/types'
 export default function ArticlesClient ({ initialArticles }: { initialArticles: getArticles[] }) {

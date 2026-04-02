@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from './users.module.scss'
 import { useTranslations } from 'next-intl'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import { useAllUsers } from '../AdminHooks/useAllUsers'
 const AllUsers: React.FC = () => {
 

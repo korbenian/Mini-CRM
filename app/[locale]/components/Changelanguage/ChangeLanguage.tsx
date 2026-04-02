@@ -5,7 +5,7 @@ import { Select, MenuItem, Box, Typography, SelectChangeEvent } from '@mui/mater
 import { useLocale } from 'next-intl'
 import { useRouter, usePathname } from 'next/navigation'
 import ReactCountryFlag from 'react-country-flag'
-import { languages, Lang } from './langueges'
+import { languages, Lang } from '../langueges'
 import styles from './ChangeLanguage.module.scss'
 
 const LanguageSwitcher = () => {

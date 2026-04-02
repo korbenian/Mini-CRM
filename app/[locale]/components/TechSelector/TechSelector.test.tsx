@@ -24,7 +24,7 @@ describe('TechSelector Component', () => {
   })
 
   it('should call onChange when a technology is clicked', () => {
-    const handleChange = vi.fn() // Our "Spy" function
+    const handleChange = vi.fn()
     render(<TechSelector selected={['JavaScript']} onChange={handleChange} />)
 
     const tsButton = screen.getByText('TypeScript')

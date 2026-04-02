@@ -2,6 +2,27 @@ import { render, screen } from '@testing-library/react'
 import { describe, it, expect, vi } from 'vitest'
 import Sidebar from './Sidebar'
 
+vi.mock('@/utils/supabase', () => ({
+  supabase: {
+    auth: {
+      getUser: vi.fn().mockResolvedValue({
+        data: { user: { id: 'test-user-id' } },
+        error: null,
+      }),
+      signIn: vi.fn(),
+      signOut: vi.fn(),
+    },
+    from: vi.fn(() => ({
+      select: vi.fn().mockReturnThis(),
+      insert: vi.fn().mockReturnThis(),
+      upsert: vi.fn().mockReturnThis(),
+      single: vi.fn().mockReturnThis(),
+      eq: vi.fn().mockReturnThis(),
+    })),
+  },
+}))
+
+
 vi.mock('next-intl', () => ({
   useLocale: () => 'ru', 
 

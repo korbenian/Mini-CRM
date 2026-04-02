@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import Input from '../components/Input'
+import Input from '../components/Input/Input'
 import { Task } from '../types/types'
 import { useTranslations } from 'next-intl'
 import styles from './TaskEdidting.module.scss'

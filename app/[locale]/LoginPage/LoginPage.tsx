@@ -3,10 +3,10 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import styles from './LoginPage.module.scss'
-import Input from '../components/Input'
+import Input from '../components/Input/Input'
 import  Link  from 'next/link'
-import ChangeLanguage from '../components/ChangeLanguage'
-import ChangeTheme from '../components/ThemeButton'
+import ChangeLanguage from '../components/Changelanguage/ChangeLanguage'
+import ChangeTheme from '../components/ThemeButton/ThemeButton'
 import { supabase } from '@/utils/supabase'
 
 type LoginPage={

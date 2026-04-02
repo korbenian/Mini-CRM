@@ -1,6 +1,6 @@
 'use client'
 //C:\Users\User\mini-crm\app\[locale]\Deals\DealsPage.tsx
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import styles from './Dealspage.module.scss'
 import Column from '../dealsComponents/Column'
 import dynamic from 'next/dynamic'

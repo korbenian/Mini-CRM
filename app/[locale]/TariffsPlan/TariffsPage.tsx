@@ -1,7 +1,7 @@
 'use client'
 import { useTranslations } from 'next-intl'
 //C:\Users\User\mini-crm\app\[locale]\TariffsPlan.tsx\TariffsPage.tsx
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import styles from './tariffs.module.scss'
 import {
 UserStar,User

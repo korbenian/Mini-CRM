@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import styles from './Column.module.scss'
 import { useDeals } from '../hooks/useDeals'
-import Input from '../components/Input'
+import Input from '../components/Input/Input'
 import DealCard from './DealCard'
 import { Droppable,Draggable} from '@hello-pangea/dnd'
 import { useTranslations } from 'next-intl'

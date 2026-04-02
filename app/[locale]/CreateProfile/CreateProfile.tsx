@@ -1,10 +1,10 @@
 'use client'
 //C:\Users\User\mini-crm\app\[locale]\CreateProfile\CreateProfile.tsx
 import { useState } from 'react'
-import Input from '../components/Input'
+import Input from '../components/Input/Input'
 import styles from  './CreateProfile.module.scss'
 import { useTranslations } from 'next-intl'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import { Profile } from '../types/types'
 import {useProfile} from '../hooks/useProfile'
 

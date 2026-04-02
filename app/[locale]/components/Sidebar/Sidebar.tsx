@@ -9,10 +9,10 @@ import {
 } from 'lucide-react'
 import  Link  from 'next/link'
 import styles from './Sidebar.module.scss'
-import ChangeTheme from './ThemeButton'
-import ChangeLanguage from './ChangeLanguage'
+import ChangeTheme from '../ThemeButton/ThemeButton'
+import ChangeLanguage from '../Changelanguage/ChangeLanguage'
 import { useTranslations } from 'next-intl'
-import { useRenderProfile } from '../hooks/useProfile';
+import { useRenderProfile } from '../../hooks/useProfile';
 
 export default function Sidebar () {
 const t = useTranslations()

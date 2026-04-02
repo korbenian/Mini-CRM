@@ -5,7 +5,7 @@ import TaskView from './TaskView'
 import { useTranslations } from 'next-intl'
 import { Task } from '../types/types'
 import styles from './tasks.module.scss' 
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import { supabase } from '@/utils/supabase'
 
 export default function AddTask() {

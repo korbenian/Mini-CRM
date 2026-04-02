@@ -2,9 +2,9 @@
 //C:\Users\User\mini-crm-vite\src\pages\ChatWithAI\ChatWithAI.tsx
 import { useChatLogic } from '../components/useChatLogic'
 import styles from './ChatWithAI.module.scss'
-import ChatInput from '../components/ChatInput'
+import ChatInput from '../components/ChatInput/ChatInput'
 import { useTranslations } from 'next-intl'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 export default function ChatWithAI () {
   const {
     input,

@@ -7,7 +7,7 @@ import useTasks from '../hooks/useTasks'
 import React from 'react'
 import TaskEditing from '../Tasks/TaskEditing'
  import styles from './AllCards.module.scss'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import { useAllCards } from '../AdminHooks/useAllCards'
  const AllCards = () => {
   const [editingId, setEditingId] = useState<string | null>(null)

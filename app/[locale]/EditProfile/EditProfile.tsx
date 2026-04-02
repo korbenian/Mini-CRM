@@ -6,7 +6,7 @@ import  Link  from 'next/link'
 import { useTranslations } from 'next-intl'
 import { UserProfile } from '../types/types'
 
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
 import { useProfile, useRenderProfile } from '../hooks/useProfile'
 
 type Props={
