@@ -1,9 +1,9 @@
 'use client'
 import { useTranslations } from 'next-intl'
 //C:\Users\User\mini-crm\app\[locale]\EditProfile\page.tsx
-import useAuth from '../hooks/useAuth'
-import { useRenderProfile } from '../hooks/useProfile'
-import EditProfile from './EditProfile'
+import useAuth from '../../../src/entities/session/useAuth'
+import { useRenderProfile } from '@/src/entities/user/useProfile'
+import EditProfile from '@/src/screens/ui/editProfile/EditProfile'
 
 export default function EditPage() {
   const { user, loading: authLoading } = useAuth()

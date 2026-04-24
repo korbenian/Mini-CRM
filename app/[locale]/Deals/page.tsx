@@ -1,5 +1,4 @@
-import Dealspage from "./DealsPage";
-//C:\Users\User\mini-crm\app\[locale]\Deals\page.tsx
+import Dealspage from "@/src/screens/ui/deals/DealsPage";
 export default function DealsPage(){
    return <Dealspage/>
 }

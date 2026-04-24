@@ -1,6 +1,6 @@
 //C:\Users\User\mini-crm\src\pages\Articles\articlesServer.tsx
-import ArticlesClient from './ArticlesClient'
-import {getArticles} from '../types/types'
+import ArticlesClient from '@/src/screens/ui/articles/ArticlesClient'
+import {getArticles} from '../../../src/shared/types/types'
 export default async function ArticlesServer () {
 
       const res = await fetch('https://dev.to/api/articles?per_page=10')

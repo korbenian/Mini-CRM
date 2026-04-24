@@ -1,9 +1,9 @@
 'use client'
 //C:\Users\User\mini-crm\app\[locale]\TariffsPlan.tsx\page.tsx
-import useAuth from '../hooks/useAuth'
-import TariffPlans from './TariffsPage'
+import useAuth from '../../../src/entities/session/useAuth'
+import TariffPlans from '@/src/screens/ui/tariffs/TariffsPage'
 import { useRouter } from 'next/navigation'
-import { supabase } from '@/utils/supabase'
+import { supabase } from '@/src/shared/utils/supabase'
 export default function PageTariffs(){
     const {  user , loading:authLoading,userId} = useAuth()
     const navigate = useRouter()

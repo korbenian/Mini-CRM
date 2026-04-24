@@ -4,17 +4,16 @@ import { useTranslations } from "next-intl";
 //C:\Users\User\mini-crm\app\api\chat\route.ts
 
 export async function POST(req: Request) {
-  const t =useTranslations()
+
     console.log(">>> API ROUTE HIT!");
   try {
     const body = await req.json();
     console.log(">>> Body:", body)
     const { message } = body;
 
-    if (!message) {
-      return NextResponse.json({ error: t('no_message_provided') }, { status: 400 });
+   if (!message) {
+      return NextResponse.json({ error: "NO_MESSAGE" }, { status: 400 });
     }
-
     const response = await axios.post(
       'https://openrouter.ai/api/v1/chat/completions',
       {
@@ -37,9 +36,6 @@ export async function POST(req: Request) {
 
   } catch (err: any) {
     console.error( err.response?.data || err.message);
-    return NextResponse.json(
-      { error: t('generic_error_prefix') }, 
-      { status: 500 }
-    );
+   return NextResponse.json({ error: "SERVER_ERROR" }, { status: 500 })
   }
 }

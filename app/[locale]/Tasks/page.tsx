@@ -1,4 +1,4 @@
-import AddTask from './addTasks'
+import AddTask from '../../../src/widgets/Tasks/addTasks'
 export default function TaskPage() {
 
 

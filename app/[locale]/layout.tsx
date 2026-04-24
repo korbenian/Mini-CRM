@@ -1,10 +1,8 @@
-//C:\Users\User\mini-crm\app\[locale]\layout.tsx
-import { Geist, Geist_Mono } from "next/font/google"; // Импортируем шрифты
+
+import { Geist, Geist_Mono } from "next/font/google"; 
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import "./globals.css";
-
-// Настраиваем переменные для шрифтов
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

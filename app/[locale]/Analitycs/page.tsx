@@ -1,11 +1,11 @@
  'use client'
  //C:\Users\User\mini-crm\app\[locale]\Analitycs\page.tsx
  import { useState } from 'react'
-import  Analitycs  from './Analytics'
+import  Analitycs  from '../../../src/screens/ui/ADanalitycs/Analytics'
 import { useTranslations } from 'next-intl'
-import { supabase } from '@/utils/supabase'
-import useAuth from '../hooks/useAuth'
-import { useRenderProfile } from '../hooks/useProfile'
+import { supabase } from '@/src/shared/utils/supabase'
+import useAuth from '../../../src/entities/session/useAuth'
+import { useRenderProfile } from '@/src/entities/user/useProfile'
 export default function AnalitycsPage() {
   const [metrics, setMetrics] = useState({ userCount: 0, totalCards: 0, avgAge: 0 });
   const  t  = useTranslations()
